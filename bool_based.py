@@ -125,10 +125,10 @@ def binary_search_by_bool(dict_para_data, vuln_para, http_type, url, expected_da
         # 这里需要优化，需要使用二分法
         for tmp_int in range(1,loop_freq):
             begin_time = time.time()
-            guess = random.randint(32,122)
+            guess = random.randint(32,124)
             count = 0
             min = 32
-            max = 122
+            max = 124
             arr = []
             while True:
                 tmp_str = str(tmp_int)
